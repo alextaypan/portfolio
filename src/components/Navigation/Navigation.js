@@ -8,11 +8,7 @@ function Navigation() {
 
         <Link to="/projects">Projects</Link>
 
-        <LinkResume
-          href="https://yer-resume.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <LinkResume href="/" target="_blank" rel="noreferrer">
           CV
         </LinkResume>
       </Nav>
