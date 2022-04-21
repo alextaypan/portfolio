@@ -8,19 +8,28 @@ function Contacts() {
   return (
     <List>
       <Item>
-        <Link href="mailto:yermak1037@gmail.com" aria-label="E-mail">
+        <Link
+          href="mailto:yakoboleksandr@gmail.com"
+          aria-label="E-mail"
+          target="_blank"
+        >
           <FiMail size="40" />
         </Link>
       </Item>
       <Item>
-        <Link href="https://github.com/yermakovaa/" aria-label="GitHub">
+        <Link
+          href="https://github.com/alextaypan/"
+          aria-label="GitHub"
+          target="_blank"
+        >
           <AiFillGithub size="40" />
         </Link>
       </Item>
       <Item>
         <Link
-          href="https://www.linkedin.com/in/yermakovaa/"
+          href="https://www.linkedin.com/in/oyakob/"
           aria-label="LinkedIn"
+          target="_blank"
         >
           <FaLinkedin size="40" />
         </Link>

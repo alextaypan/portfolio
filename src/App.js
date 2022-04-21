@@ -2,7 +2,6 @@ import { lazy, Suspense, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { addBackToTop } from 'vanilla-back-to-top';
 
-import Container from './components/Container';
 import Layout from './components/Layout';
 import LoaderComponent from './components/LoaderComponent';
 

@@ -7,16 +7,16 @@ import { Title, Info, SubTitle, List } from './HomeView.style';
 function HomeView() {
   return (
     <>
-      <Title>Hi there!</Title>
+      <Title>Greetings!</Title>
       <Info>My name's Oleksandr Yakob and I’m a Front-end Developer!</Info>
 
-      <SubTitle>[ Tech Skills_ ]</SubTitle>
+      <SubTitle>[ Tech Skills ]</SubTitle>
       <List>
         {techSkills.map(({ id, label, icon }) => (
           <TechSkills key={id} label={label} icon={icon} />
         ))}
       </List>
-      <SubTitle>[ Contacts_ ]</SubTitle>
+      <SubTitle>[ Contacts ]</SubTitle>
       <Contacts />
     </>
   );
