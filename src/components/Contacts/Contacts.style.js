@@ -9,10 +9,13 @@ export const List = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 `;
 
 export const Item = styled.li`
-  padding: 20px;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
 `;
 
 export const Link = styled.a`

@@ -2,17 +2,14 @@ import { techSkills } from './techSkills';
 import TechSkills from '../../components/TechSkills';
 import Contacts from '../../components/Contacts';
 import PropTypes from 'prop-types';
-import { Wrapper, Flex, Title, Info, SubTitle, List } from './HomeView.style';
+import { Title, Info, SubTitle, List } from './HomeView.style';
 
 function HomeView() {
   return (
     <>
-      <Wrapper>
-        <Flex>
-          <Title>Hi there!</Title>
-          <Info>/ My name's Anastasiia and I’m a Front-end Developer!</Info>
-        </Flex>
-      </Wrapper>
+      <Title>Hi there!</Title>
+      <Info>My name's Oleksandr Yakob and I’m a Front-end Developer!</Info>
+
       <SubTitle>[ Tech Skills_ ]</SubTitle>
       <List>
         {techSkills.map(({ id, label, icon }) => (

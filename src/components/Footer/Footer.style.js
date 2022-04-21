@@ -3,7 +3,7 @@ import { secondaryColor, bgColor } from '../../assets/stylesVariables';
 
 export const Wrapper = styled.footer`
   padding: 20px 0;
-  min-height: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;

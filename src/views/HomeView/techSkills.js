@@ -5,9 +5,6 @@ import git from '../../assets/images/techIcons/git.png';
 import javascript from '../../assets/images/techIcons/javascript.png';
 import react from '../../assets/images/techIcons/react.png';
 import redux from '../../assets/images/techIcons/redux.png';
-import nextJs from '../../assets/images/techIcons/nextJs.png';
-import ts from '../../assets/images/techIcons/ts.png';
-import less from '../../assets/images/techIcons/less.png';
 
 export const techSkills = [
   {
@@ -26,11 +23,6 @@ export const techSkills = [
     icon: sass,
   },
   {
-    id: 'id-10',
-    label: 'Less',
-    icon: less,
-  },
-  {
     id: 'id-4',
     label: 'GIT',
     icon: git,
@@ -41,11 +33,6 @@ export const techSkills = [
     icon: javascript,
   },
   {
-    id: 'id-9',
-    label: 'TypeScript',
-    icon: ts,
-  },
-  {
     id: 'id-6',
     label: 'React.js',
     icon: react,
@@ -54,10 +41,5 @@ export const techSkills = [
     id: 'id-7',
     label: 'Redux',
     icon: redux,
-  },
-  {
-    id: 'id-8',
-    label: 'Next.js',
-    icon: nextJs,
   },
 ];

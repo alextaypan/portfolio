@@ -29,17 +29,15 @@ function App() {
 
   return (
     <>
-      <Container>
-        <Suspense fallback={<LoaderComponent />}>
-          <Routes>
-            <Route path="/" element={<Layout />}>
-              <Route index element={<HomeView />} />
-              <Route path="projects" element={<ProjectsView />} />
-              <Route path="*" element={<NotFoundView />} />
-            </Route>
-          </Routes>
-        </Suspense>
-      </Container>
+      <Suspense fallback={<LoaderComponent />}>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<HomeView />} />
+            <Route path="projects" element={<ProjectsView />} />
+            <Route path="*" element={<NotFoundView />} />
+          </Route>
+        </Routes>
+      </Suspense>
     </>
   );
 }
