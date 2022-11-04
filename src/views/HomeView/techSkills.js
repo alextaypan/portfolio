@@ -3,6 +3,7 @@ import css from '../../assets/images/techIcons/css.png';
 import sass from '../../assets/images/techIcons/sass.png';
 import git from '../../assets/images/techIcons/git.png';
 import javascript from '../../assets/images/techIcons/javascript.png';
+import typescript from '../../assets/images/techIcons/typescript.png';
 import react from '../../assets/images/techIcons/react.png';
 import redux from '../../assets/images/techIcons/redux.png';
 
@@ -34,11 +35,16 @@ export const techSkills = [
   },
   {
     id: 'id-6',
+    label: 'TypeScript',
+    icon: typescript,
+  },
+  {
+    id: 'id-7',
     label: 'React.js',
     icon: react,
   },
   {
-    id: 'id-7',
+    id: 'id-8',
     label: 'Redux',
     icon: redux,
   },

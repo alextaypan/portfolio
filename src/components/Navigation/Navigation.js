@@ -9,7 +9,7 @@ function Navigation() {
         <Link to="/projects">Projects</Link>
 
         <LinkResume
-          href="https://oyakob-cv.netlify.app/"
+          href="https://drive.google.com/file/d/1FPrnf2-t7mklODixKTr7AX0y0TgbcQI6/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
