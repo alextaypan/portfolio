@@ -1,7 +1,7 @@
 import iceCreamImg from '../../assets/images/previewProjects/iceCream.png';
 import eventBoosterImg from '../../assets/images/previewProjects/eventBooster.png';
-import webStudioImg from '../../assets/images/previewProjects/webStudio.png';
-import imageFinder from '../../assets/images/previewProjects/imageFinder.png';
+import dailyNotes from '../../assets/images/previewProjects/dailyNotes.png';
+import devfinder from '../../assets/images/previewProjects/devFinder.png';
 import moviesImg from '../../assets/images/previewProjects/moviesApp.png';
 import phonebookImg from '../../assets/images/previewProjects/phoneBook.png';
 import booksReadingImg from '../../assets/images/previewProjects/booksReading.png';
@@ -42,11 +42,11 @@ export const ownProjects = [
   },
   {
     id: 'id-2',
-    label: 'Image Finder',
-    link: 'https://alextaypan.github.io/goit-react-hw-04-images/',
-    repo: 'https://github.com/alextaypan/goit-react-hw-04-images',
-    preview: imageFinder,
-    info: 'Keyword search image app. The public image search service Pixabay was used for HTTP requests.',
+    label: 'Dev Finder',
+    link: 'https://githugusers-finder.netlify.app/',
+    repo: 'https://github.com/alextaypan/devfinder-react-ts',
+    preview: devfinder,
+    info: 'Keyword search GitHub users. ',
     tech: [
       { id: 'id-1', name: 'HTML5' },
       { id: 'id-2', name: 'CSS3' },
@@ -54,19 +54,22 @@ export const ownProjects = [
       { id: 'id-4', name: 'AJAX' },
       { id: 'id-5', name: 'REST API' },
       { id: 'id-6', name: 'Axios' },
+      { id: 'id-7', name: 'TypeScript' },
     ],
   },
   {
     id: 'id-1',
-    label: 'Web Studio',
-    link: 'https://alextaypan.github.io/goit-markup-hw-08/',
-    repo: 'https://github.com/alextaypan/goit-markup-hw-08',
-    preview: webStudioImg,
-    info: 'Adaptive web page layout Web Studio - effective solutions for your business.',
+    label: 'Daily Notes',
+    link: 'https://daily-notes-app.netlify.app/',
+    repo: 'https://github.com/alextaypan/notes-react-ts',
+    preview: dailyNotes,
+    info: 'App with the ability to create daily notes with tags.',
     tech: [
       { id: 'id-1', name: 'HTML5' },
-      { id: 'id-2', name: 'SCSS' },
-      { id: 'id-3', name: 'JavaScript' },
+      { id: 'id-2', name: 'CSS3' },
+      { id: 'id-3', name: 'React.js' },
+      { id: 'id-4', name: 'TypeScript' },
+      { id: 'id-5', name: 'Bootstrap' },
     ],
   },
 ];
