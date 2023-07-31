@@ -1,7 +1,7 @@
 import iceCreamImg from '../../assets/images/previewProjects/iceCream.png';
 import eventBoosterImg from '../../assets/images/previewProjects/eventBooster.png';
-import dailyNotes from '../../assets/images/previewProjects/dailyNotes.png';
-import devfinder from '../../assets/images/previewProjects/devFinder.png';
+import jobster from '../../assets/images/previewProjects/jobsterImg.png';
+import devfinder from '../../assets/images/previewProjects/devFinderImg.png';
 import moviesImg from '../../assets/images/previewProjects/moviesApp.png';
 import phonebookImg from '../../assets/images/previewProjects/phoneBook.png';
 import booksReadingImg from '../../assets/images/previewProjects/booksReading.png';
@@ -59,17 +59,18 @@ export const ownProjects = [
   },
   {
     id: 'id-1',
-    label: 'Daily Notes',
-    link: 'https://daily-notes-app.netlify.app/',
-    repo: 'https://github.com/alextaypan/notes-react-ts',
-    preview: dailyNotes,
-    info: 'App with the ability to create daily notes with tags.',
+    label: 'Jobster',
+    link: 'https://job-sense.netlify.app/',
+    repo: 'https://github.com/alextaypan/jobster',
+    preview: jobster,
+    info: 'App with the ability to see your job progress with authorization',
     tech: [
       { id: 'id-1', name: 'HTML5' },
       { id: 'id-2', name: 'CSS3' },
       { id: 'id-3', name: 'React.js' },
-      { id: 'id-4', name: 'TypeScript' },
-      { id: 'id-5', name: 'Bootstrap' },
+      { id: 'id-4', name: 'Redux' },
+      { id: 'id-5', name: 'Styled-components' },
+      { id: 'id-6', name: 'Recharts' },
     ],
   },
 ];

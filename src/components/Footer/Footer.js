@@ -3,7 +3,9 @@ import { Wrapper, Copy } from './Footer.style';
 function Footer() {
   return (
     <Wrapper>
-      <Copy>© 2023 | Developed by Oleksandr Yakob</Copy>
+      <Copy>
+        &copy; {new Date().getFullYear()} | Developed by Oleksandr Yakob
+      </Copy>
     </Wrapper>
   );
 }
